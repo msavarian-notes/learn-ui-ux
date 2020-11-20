@@ -1,0 +1,15 @@
+{
+  "name": "sass.samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-build":"sass --watch src/style.scss build/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.8"
+  }
+}
